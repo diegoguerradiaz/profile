@@ -1,0 +1,91 @@
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: 'Urbanist', sans-serif;
+  color: #283747;
+  background-color: #F8F9F9;
+  line-height: 1.7;
+  margin: 0;
+}
+
+p {
+  color: #273746;
+}
+
+#profile-pic {
+  border-radius: 50%;
+}
+
+#git-logo {
+  color: #154360;
+}
+
+#ig-logo {
+  color: #D35400;
+}
+
+#linkdn-logo {
+  color: #1F618D;
+}
+
+a {
+  font-size: 16px;
+  color: #ABB2B9;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.icons {
+  font-size: 35px;
+  list-style: none;
+}
+
+.display-inline li {
+  display: inline-block;
+}
+
+ul {
+  padding: 0;
+  letter-spacing: 20px;
+}
+
+a:hover {
+  color: #273746;
+}
+
+#btn-white {
+  border-radius: 3px;
+  background-color: #D6EAF8;
+  padding: 8px 20px;
+  margin: 5% 25%;
+  text-align: center;
+  text-transform: none;
+}
+
+.container {
+  text-align: center;
+  line-height: 40px;
+  background-color: white;
+  margin: 1% 0%;
+  padding: 1%;
+}
+
+.card {
+  text-align: center;
+  background-color: white;
+  padding: 1%;
+  margin: 1.5% 35%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  #btn-white {
+    margin: 1% 5%;
+  }
+}
